@@ -13,6 +13,7 @@ def get_joke():
     else:
         return "Failed to fetch a joke. Try again!"
 
+
 if __name__ == "__main__":
     joke = get_joke()
     print(joke)
